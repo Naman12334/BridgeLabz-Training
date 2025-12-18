@@ -1,5 +1,5 @@
 import java.util.*;
-public class power_cal {
+public class PowerCal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

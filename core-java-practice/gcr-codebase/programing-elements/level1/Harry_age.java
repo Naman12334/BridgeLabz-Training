@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class harry_age {
+public class Harry_age {
     public static void main(String[] args){
         int age = 2024;
         int curr = 2024 - 2000;
