@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Average {
+public class ThreeAverage {
     public static void main(String[] args) {
         
     
