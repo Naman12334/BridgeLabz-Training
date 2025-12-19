@@ -8,7 +8,7 @@ public class Heightcal {
         double inches = height * 2.54;
         double foot = inches * 12;
         System.out.println("Your Height in cm is " + height+ " while in feet is " + foot +" and inches is " + inches);
-    }
+}
 }
     
 
