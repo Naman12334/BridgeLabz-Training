@@ -10,7 +10,7 @@ public class Universitydiscount {
         int discountFee = fee * discountPercent/100;
         int remainFee = fee - discountFee;
         System.out.println("The discount amount is INR " + discountFee +" and final discounted fee is INR " + remainFee);
-    }
+}
 }
     
 

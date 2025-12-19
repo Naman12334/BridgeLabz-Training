@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class profitloss {
+public class Profitloss {
     public static void main(String[] args) {
         int cost = 129;
         int sell = 191;
