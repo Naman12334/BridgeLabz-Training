@@ -19,7 +19,7 @@ public class MetroSmartCard {
                 break;
             }
 
-            // Fare calculation using ternary operator
+         
             fare = (distance <= 5) ? 10 :
                    (distance <= 10) ? 20 :
                    (distance <= 20) ? 30 : 40;
