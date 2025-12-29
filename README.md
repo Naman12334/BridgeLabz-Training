@@ -3,8 +3,6 @@
 This repository contains all the tasks, practice programs, and problem-solving work completed as part of *BridgeLabz Training.*  
 The focus is on *Core Java fundamentals* and *DSA practice using LeetCode.*
 
-## BridgeLabz Training Folder Structure
-
 ## 📁 BridgeLabz Training Folder Structure
 
 ```
@@ -159,3 +157,23 @@ BridgeLabz-Training
 - java.lang.Math class
 
 📂 Folder:core-java-practice/gcr-codebase/methods
+
+---
+
+### ✅ 26 December
+*Completed Scenario-Based Java Tasks*
+- Solved real-world scenario problems using loops and conditional logic
+- Improved understanding of decision-making and iterative control flow
+
+*Scenarios Covered:*
+- *Bus Route Distance Tracker* 
+  - Tracked total distance using a while loop
+  - Asked passenger confirmation at each stop
+  - Exited the loop based on user confirmation
+- *Festival Lucky Draw*
+  - Checked winning condition using modulus operator
+  - Applied if conditions for divisibility by 3 and 5
+  - Used loops for multiple visitors
+  - Used continue for handling invalid inputs
+  
+📂 Folder:core-java-practice/scenario-based
