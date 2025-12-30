@@ -5,7 +5,8 @@ class DiwaliGift {
         Scanner sc = new Scanner(System.in);
 
         int num;
-        char ch = 0;
+        char ch = 0; 
+        ;
 
         do {
             System.out.print("Enter drawn number: ");

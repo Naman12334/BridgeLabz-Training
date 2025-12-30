@@ -1,4 +1,4 @@
-import java.util.*;
+ import java.util.*;
 public class StringOutOfBound {
 	 static void gen(String s) {
 	        s.charAt(10);
