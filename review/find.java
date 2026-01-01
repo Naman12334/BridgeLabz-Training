@@ -37,7 +37,7 @@ class Main {
                 if (target > arr[mid] && target <= arr[high]) {
                     low = mid + 1;
                 } else {
-                    high = mid - 1;
+                    yigh = mid - 1;
                 }
             }
         }
