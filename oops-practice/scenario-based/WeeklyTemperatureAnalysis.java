@@ -32,7 +32,7 @@ public class WeeklyTemperatureAnalysis {
 
         for(int i=0;i<7;i++){
             for(int j=0;j<24;j++){
-                weekTemp[i][j]=20+(float)Math.random()*15;
+                weekTemp[i][j]=20*15;
             }
         }
 

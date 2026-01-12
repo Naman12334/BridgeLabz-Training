@@ -44,7 +44,7 @@ class MathUtility{
         return c;
     }
 }
-public class MathematicalOperation{
+public class Math{
     public static void main(String[] args){
         Scanner ob=new Scanner(System.in);
         System.out.print("Enter number for factorial:");

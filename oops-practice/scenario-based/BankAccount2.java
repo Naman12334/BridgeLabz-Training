@@ -28,7 +28,7 @@ class BankAccount{
         System.out.println("Current Balance:"+balance);
     }
 }
-public class BankAccountManager{
+public class BankAccount2{
     public static void main(String[] args){
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter account number:");

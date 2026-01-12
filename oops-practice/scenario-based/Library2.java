@@ -55,7 +55,7 @@ class Library2{
     }
 }
 
-public class Main{
+public class Library2{
     public static void main(String[] args){
         Book[] arr={
             new Book("Java Basics","James",true),
@@ -76,3 +76,4 @@ public class Main{
         }
     }
 }
+
