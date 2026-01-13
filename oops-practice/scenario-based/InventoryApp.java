@@ -19,56 +19,72 @@ class Product {
         this.qty = qty;
     }
 
-    public void addStock(int q) {
+    public void add(int q) {
         qty += q;
     }
 
-    public void reduceStock(int q) throws OutOfStockException {
+    public void remove(int q) throws OutOfStockException {
         if (q > qty)
             throw new OutOfStockException("Out of stock: " + name);
         qty -= q;
     }
 }
 
-// interface for alerts
+// alert interface
 interface AlertService {
-    void sendAlert(Product p);
+    void alert(Product p);
 }
 
-// low stock alert implementation
+// low stock alert
 class LowStockAlert implements AlertService {
-    public void sendAlert(Product p) {
+    public void alert(Product p) {
         System.out.println("⚠ LOW STOCK ALERT: " + p.name + " | Qty: " + p.qty);
     }
 }
 
 // inventory class
 class Inventory {
-    Map<Integer, Product> map = new HashMap<>();
-    AlertService alert = new LowStockAlert();
+    Product[] arr;
+    int size = 0;
     final int LIMIT = 5;
+    AlertService as = new LowStockAlert();
+
+    public Inventory(int cap) {
+        arr = new Product[cap];
+    }
 
     public void addProduct(Product p) {
-        map.put(p.id, p);
+        arr[size++] = p;
     }
 
-    public void updateStock(int id, int q) throws OutOfStockException {
-        Product p = map.get(id);
-        if (p == null)
+    private Product find(int id) {
+        for (int i = 0; i < size; i++) {
+            if (arr[i].id == id)
+                return arr[i];
+        }
+        return null;
+    }
+
+    public void update(int id, int q) throws OutOfStockException {
+        Product p = find(id);
+        if (p == null) {
+            System.out.println("Product not found");
             return;
+        }
 
         if (q < 0)
-            p.reduceStock(-q);
+            p.remove(-q);
         else
-            p.addStock(q);
+            p.add(q);
 
         if (p.qty <= LIMIT)
-            alert.sendAlert(p);
+            as.alert(p);
     }
 
-    public void showStock() {
-        for (Product p : map.values()) {
-            System.out.println(p.id + " | " + p.name + " | Qty: " + p.qty);
+    public void show() {
+        System.out.println("\n--- Inventory ---");
+        for (int i = 0; i < size; i++) {
+            System.out.println(arr[i].id + " | " + arr[i].name + " | Qty: " + arr[i].qty);
         }
     }
 }
@@ -76,18 +92,35 @@ class Inventory {
 // main class
 public class InventoryApp {
     public static void main(String[] args) {
-        Inventory inv = new Inventory();
+        Scanner sc = new Scanner(System.in);
 
-        inv.addProduct(new Product(1, "Laptop", 10));
-        inv.addProduct(new Product(2, "Mouse", 4));
+        System.out.print("Enter number of products: ");
+        int n = sc.nextInt();
+
+        Inventory inv = new Inventory(n);
+
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter id, name, qty: ");
+            int id = sc.nextInt();
+            String name = sc.next();
+            int qty = sc.nextInt();
+
+            inv.addProduct(new Product(id, name, qty));
+        }
 
         try {
-            inv.updateStock(1, -3);
-            inv.updateStock(2, -2);
+            System.out.print("\nEnter product id to update: ");
+            int id = sc.nextInt();
+
+            System.out.print("Enter qty (+add / -remove): ");
+            int q = sc.nextInt();
+
+            inv.update(id, q);
         } catch (OutOfStockException e) {
             System.out.println(e.getMessage());
         }
 
-        inv.showStock();
+        inv.show();
+        sc.close();
     }
 }
