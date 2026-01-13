@@ -294,4 +294,97 @@ Concepts Covered:
 
 📂 Folder:oops-practice/scenario-based<br>
 📂 Folder:oops-practice/gcr-codebase/encapsulation-polymorphism-interface-abstract
+### ✅ 6 January 
+*Completed Advanced Scenario-Based Java Practice with Collections & Exceptions*  
+- Implemented real-world applications using lists, arrays, strings, methods, and custom exceptions  
+- Practiced problems in LeetCode  
+
+*Scenario-Based Problems:*  
+- Phone Contact Organizer  
+- Online Quiz Platform – Result Processor  
+- Student Report Generator  
+- Library Management System – Book Search and Checkout
+
+📂 Folder:oops-practice/scenario-based<br>
+📂 Folder:oops-practice/leet-code-codebase
+
+---
+
+### ✅ 7 January  
+*Studied Data Structures Fundamentals and Linked Lists*  
+- Learned the basics of data structures and their importance in Java  
+- Understood different types of linked lists and their use cases  
+
+*Topics Covered:*  
+- Introduction to Data Structures  
+- Key features of data structures in Java  
+- Types of data structures in Java  
+- Singly linked list  
+- Doubly linked list  
+- Circular linked list  
+
+---
+
+### ✅ 7 January   
+*Reviewed DSA Preparation Plan Roadmap*  
+- Understood the structured roadmap for Data Structures and Algorithms preparation  
+- Planned topic-wise learning and problem-solving strategy  
+
+*Focus Areas:*  
+- Data Structures fundamentals  
+- Algorithmic problem-solving  
+- Consistent practice using LeetCode  
+- Progressive difficulty-based preparation  
+
+---
+
+### ✅ 8 January   
+*Studied Data Structures Fundamentals and Linked Lists*  
+- Learned the basics of data structures and their importance in Java  
+- Understood different types of linked lists and their use cases  
+
+*Topics Covered:*  
+- Introduction to Data Structures  
+- Key features of data structures in Java  
+- Types of data structures in Java  
+- Singly linked list  
+- Doubly linked list  
+- Circular linked list  
+
+📂 Folder:dsa-practice/gcr-codebase/linked-list
+
+---
+
+### ✅ 9 January  
+*Studied Stack, Queue, and Hashing Concepts*  
+- Learned fundamental linear data structures and hashing mechanisms  
+
+*Topics Covered:*  
+- Stack  
+- Queue  
+- HashMap  
+- Hashing Function  
+
+---
+
+### ✅ 12 January  
+*Documented and Implemented Advanced OOP Scenario-Based Systems*  
+- Implemented real-world applications using **Core Java and OOP principles only** 
+
+*OOP Scenario-Based Systems Covered:*  
+- Online Banking System  
+- E-Commerce Order Management System  
+- Student Course Registration System  
+- Inventory Management System  
+- Cab Booking / Ride Management System  
+- Hospital Management System  
+- Library Management System  
+- Online Examination System  
+- Hotel Reservation System  
+- Online Voting System  
+- Digital Wallet System  
+
+📂 Folder:oops-practice/scenario-based
+
+---
 
