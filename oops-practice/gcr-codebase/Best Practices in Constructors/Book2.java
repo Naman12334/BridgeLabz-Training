@@ -12,8 +12,3 @@ class Book2 {
     }
 }
 
-class EBook extends Book {
-    void display() {
-        System.out.println(isbn + " " + title);
-    }
-}

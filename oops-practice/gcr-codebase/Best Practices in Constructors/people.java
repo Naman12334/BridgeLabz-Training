@@ -7,8 +7,6 @@ class people {
         this.age = age;
     }
 
-    people(Person p) {
-        this.name = p.name;
-        this.age = p.age;
+  
     }
-}
+

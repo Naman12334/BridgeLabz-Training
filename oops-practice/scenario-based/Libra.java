@@ -25,9 +25,7 @@ class Book{
 class Library2{
     List<Book> list=new ArrayList<>();
 
-    Library(Book[] arr){
-        list.addAll(Arrays.asList(arr));
-    }
+ 
 
     void search(String k){
         for(Book b:list){
@@ -55,25 +53,5 @@ class Library2{
     }
 }
 
-public class Library2{
-    public static void main(String[] args){
-        Book[] arr={
-            new Book("Java Basics","James",true),
-            new Book("Data Structures","Mark",false),
-            new Book("OOP Concepts","John",true)
-        };
 
-        Library l=new Library(arr);
-
-        l.show();
-        System.out.println("\nSearch result:");
-        l.search("Java");
-
-        try{
-            l.checkout("Data Structures");
-        }catch(Exception e){
-            System.out.println(e.getMessage());
-        }
-    }
-}
 
