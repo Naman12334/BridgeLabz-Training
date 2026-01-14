@@ -65,8 +65,8 @@ class Ride{
         System.out.println("Fare: ₹"+fare);
         System.out.println("---------------------");
     }
-}
 
+}
 
 public class CarBooking{
     static List<Driver> dlist=new ArrayList<>();

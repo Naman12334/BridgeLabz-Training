@@ -91,6 +91,7 @@ public class BankAccoun{
         return (now.isAfter(mStart)&&now.isBefore(mEnd)) ||
                (now.isAfter(eStart)&&now.isBefore(eEnd));
     }
+  
 
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
@@ -151,4 +152,5 @@ public class BankAccoun{
             }
         }
     }
+
 }

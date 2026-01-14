@@ -33,7 +33,7 @@ class PaidOnlineCourse extends OnlineCourse {
     }
 }
 
-public class Main {
+public class Cours {
     public static void main(String[] args){
         PaidOnlineCourse c=new PaidOnlineCourse("DSA",60,"Udemy",true,5000,1000);
         c.show();

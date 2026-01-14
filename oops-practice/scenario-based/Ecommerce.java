@@ -18,7 +18,7 @@ class Product{
         this.product_name=product_name;
         this.price=price;
     }
-}
+} 
 class Order{
     int order_id;
     Customer customer;
