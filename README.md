@@ -396,4 +396,13 @@ Concepts Covered:
 - `git pull` and `git fetch`  
 - Merge conflict creation and resolution
 ---
+### ✅ 14 January  
+*Studied and Implemented Sorting Algorithms in Java*  
+- Learned sorting concepts and implemented multiple algorithms  
+
+*Algorithms Covered:*  
+- Bubble Sort, Insertion Sort, Merge Sort, Quick Sort  
+- Selection Sort, Heap Sort, Counting Sort, Radix Sort, Bucket Sort  
+
+📂 Folder:dsa-practice/gcr-codebase/sorting
 
