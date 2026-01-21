@@ -466,4 +466,52 @@ Concepts Covered:
 - `InputStreamReader`  
 - `Linear Search`  
 - `Binary Search`
+### ✅ 16 January  
+*Studied Runtime Analysis and Code Optimization Concepts*  
+- Learned how to evaluate algorithm performance and resource usage  
 
+*Topics Covered:*  
+- Runtime analysis  
+- Big-O notation  
+- Time complexity  
+- Space complexity  
+- Best, worst, and average case analysis  
+- Practical guidelines for optimizing Java code  
+
+---
+
+### ✅ 17 January 
+*Practiced DSA and OOP scenario-based problems using Core Java* 
+- Solved real-world problems using data structures, OOP principles, and Core Java  
+
+*Scenario-Based Problems:*  
+- BrowserBuddy – Tab History Manager  
+- TrafficManager – Roundabout Vehicle Flow  
+- BookShelf – Library Organizer  
+
+📂 Folder:dsa-practice/scenario-based
+
+---
+
+### ✅ 19 January  
+*Submitted Algorithm Runtime Analysis & Big-O Notation*  
+- Reviewed best practices for analyzing algorithm performance  
+- Focused on optimizing time and space complexity  
+
+*Topics Covered:*  
+- Algorithm runtime analysis  
+- Big-O notation  
+- General algorithm best practices  
+- Time and space complexity optimization  
+
+📂 Folder:dsa-practice/gcr-codebase/runtime-analysis
+### ✅ 20 January  
+*Worked on DSA and OOP Scenario-Based Problems*  
+- Practiced real-world problem solving using linked lists, stacks, maps, lists, and exception handling  
+
+*Scenario-Based Problems:*  
+- ParcelTracker – Delivery Chain Management  
+- ExamProctor – Online Exam Review System  
+- CinemaTime – Movie Schedule Manager  
+
+📂 Folder:dsa-practice/scenario-based
