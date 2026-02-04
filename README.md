@@ -576,3 +576,89 @@ Concepts Covered:
 - JUnit annotations  
 - Writing test cases and assertions  
 - Test class structure
+- ### ✅ 28 January  
+*Reviewed Java Coding Standards and String-Based Problem Solving*  
+- Focused on writing clean, readable, and maintainable Java code  
+
+*Topics Covered:*  
+- Java coding conventions and industry standards  
+- Logging, performance, and security guidelines  
+
+*Scenario-Based Problems:*  
+- Lexical Twist  
+- Flip Key Logic (ASCII String Processing)  
+
+📂 Folder:collections-practice/scenario-based
+
+---
+
+### ✅ 29 January  
+*Completed FutureLogistics – Goods Transport Billing System*  
+- Built an object-oriented application to calculate transport charges for Brick and Timber goods  
+
+*Concepts Covered:*  
+- Abstraction using `GoodsTransport` base class  
+- Inheritance (`BrickTransport`, `TimberTransport`)  
+- Polymorphism for vehicle selection and charge calculation  
+- Input parsing and validation (`Utility` class)  
+- Custom validation for Transport ID  
+- Tax and discount-based billing logic  
+
+📂 Folder:oops-practice/scenario-based/FutureLogistics
+
+---
+
+### ✅ 30 January  
+*Practiced JUnit and Regex in Java*  
+- Worked on unit testing and regular expression–based validation and extraction  
+
+*Topics Covered:*  
+- JUnit tests (calculator, strings, lists, exceptions, lifecycle, parameterized, file handling)  
+- Regex validation and extraction (emails, dates, IP, credit cards, SSN, patterns)  
+
+📂 Folder:collections-practice/gcr-codebase/junit
+
+---
+
+### ✅ 2 February  
+*Practiced CSV Data Handling, Annotations, and Reflection in Java*  
+- Worked on reading, writing, validating, and transforming CSV data using Java  
+- Learned how annotations and reflection help in building flexible and extensible applications  
+
+*Tasks Covered:*  
+- Reading, writing, and counting CSV records  
+- Filtering, searching, updating, and sorting data  
+- Data validation using regex (email, phone)  
+- Converting CSV to Java objects and merging files  
+- Efficient processing of large CSV files  
+- Detecting duplicates  
+- CSV ↔ JSON conversion  
+- Encrypting and decrypting sensitive fields  
+- Introduction to annotations (built-in and custom)  
+- Advanced custom annotations and real-world use cases  
+- Annotation processing tools  
+- Reflection concepts and usage  
+- Annotations with reflection  
+
+📂 Folder: io-programming/gcr-codebase/csv
+📂 Folder: collections-practice/gcr-codebase/annotations-reflection
+
+---
+
+### ✅ 3 February  
+*Studied JSON Handling and Java Stream Operations*  
+- Learned how to work with JSON data and process collections using Java Streams  
+
+*Topics Covered:*  
+- Introduction to JSON (reading, writing, parsing, schema validation)  
+- Stream intermediate operations (`filter`, `map`, `flatMap`, `distinct`, `sorted`, `peek`, `limit`, `skip`)  
+- Terminal operations (`collect`, `forEach`, `reduce`, `count`, `anyMatch`, `allMatch`, `noneMatch`)  
+- Stateless vs stateful operations  
+- Ordered vs unordered streams  
+- Parallel streams  
+- `forEach()` in Iterable vs Stream  
+
+📂 Folder:io-programming-practice/gcr-codebase/json-data
+📂 Folder:collections-practice/gcr-codebase/streams
+
+---
