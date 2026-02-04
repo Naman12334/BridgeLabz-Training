@@ -17,7 +17,7 @@ public class StreamBuzzMenu {
             System.out.print("Enter Choice: ");
 
             int ch = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (ch) {
                 case 1:
