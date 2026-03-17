@@ -1,4 +1,4 @@
-package addressbook.model;
+package org.naman.sonarqube.model;
 
 import java.util.Objects;
 

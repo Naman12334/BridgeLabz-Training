@@ -1,4 +1,4 @@
-package addressbook.dao;
+package org.naman.sonarqube.dao;
 
 import addressbook.model.Contact;
 import java.util.*;
