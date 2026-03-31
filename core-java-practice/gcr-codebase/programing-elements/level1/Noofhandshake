@@ -1,0 +1,10 @@
+import java.util.*;
+public class Noofhandshake{
+     public static void main(String[] args){
+        int n = sc.nextInt();
+        int handshake = (n *(n - 1)) / 2;
+        System.out.println("the no of students is" + n + "so the total handsake are" + handsake);
+
+
+     }
+}
